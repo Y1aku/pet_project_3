@@ -6,7 +6,7 @@ const goalSchema = mongoose.Schema({
         required: [true, 'Please add a text value']
     }
 }, {
-    timestapms: true
+    timestamps: true
 });
 
 module.exports = mongoose.model('Goal', goalSchema);
